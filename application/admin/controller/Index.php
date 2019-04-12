@@ -54,8 +54,6 @@ class Index extends Backend
      */
     public function login()
     {
-
-    	
         $url = $this->request->get('url', 'index/index');
         if ($this->auth->isLogin())
         {
